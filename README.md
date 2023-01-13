@@ -70,3 +70,12 @@ for i in range(1,T+1):
 a, b = map(int,input().split())
 print(a*b)
 ```
+## 10951번
+```python
+while True:
+    try:
+        a,b = map(int,input().split())
+        print(a+b)
+    except:
+        break
+```
