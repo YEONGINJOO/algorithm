@@ -79,3 +79,12 @@ while True:
     except:
         break
 ```
+## 10952번
+```python
+while True:
+    a,b = map(int,input().split())
+    if (a and b) == 0:
+        break
+    else:
+        print(a+b)
+```
