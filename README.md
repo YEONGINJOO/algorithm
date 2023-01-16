@@ -88,3 +88,27 @@ while True:
     else:
         print(a+b)
 ```
+## 5338번
+```python
+print("       _.-;;-._")
+print("'-..-'|   ||   |")
+print("'-..-'|_.-;;-._|")
+print("'-..-'|   ||   |")
+print("'-..-'|_.-''-._|")
+```
+## 2475번
+```python
+a = input().split()
+k = 0
+for i in range(5):
+    k = k + int(a[i])**2 
+print(k % 10)
+```
+
+## 2475번
+```python
+T = int(input())
+for i in range(1,T+1):
+    a = input()
+    print(f'{a[0]}{a[-1]}')
+ ```
