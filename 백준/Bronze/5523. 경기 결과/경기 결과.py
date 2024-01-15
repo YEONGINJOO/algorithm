@@ -1,3 +1,6 @@
+import sys
+input = sys.stdin.readline
+
 n = int(input())
 a_cnt = 0
 b_cnt = 0
