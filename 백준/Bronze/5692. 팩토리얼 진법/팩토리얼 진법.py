@@ -1,13 +1,15 @@
-def facto(a):
-    if a == 1:
-        return 1
-    return a * facto(a-1)
+import sys
+input = sys.stdin.readline
 
 while True:
-    n = input()
-    if n == '0':
+    n = int(input())
+    if n == 0:
         break
-    ans = 0
-    for i in range(len(n)):
-        ans += int(n[i]) * facto(len(n)-i)
+    a = n // 10000
+    b = (n - a * 10000) // 1000
+    c = (n - a * 10000 - b * 1000) // 100
+    d = (n - a * 10000 - b * 1000 - c * 100) // 10
+    e = (n - a * 10000 - b * 1000 - c * 100 - d * 10)
+
+    ans = 120 * a + 24 * b + 6 * c + 2 * d + e
     print(ans)
