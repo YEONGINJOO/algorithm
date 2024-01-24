@@ -1,11 +1,7 @@
 import sys
 input = sys.stdin.readline
 
-a, b = map(int, input().split())
-str_a = str(a)
-str_b = str(b)
-ans = 0
-for i in str_a:
-    for j in str_b:
-        ans += int(i)*int(j)
-print(ans)
+a, b = map(str, input().split())
+str_a = list(map(int, a))
+str_b = list(map(int, b))
+print(sum(str_a) * sum(str_b))
