@@ -4,6 +4,6 @@ i = 0
 while i < len(a):
     ans += a[i]
     if a[i] in 'aeiou':
-        i += 2  # 모음 다음 'p'와 그 다음 모음을 건너뜁니다.
+        i += 2
     i += 1
 print(ans)
