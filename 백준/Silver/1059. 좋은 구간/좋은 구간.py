@@ -15,6 +15,4 @@ else:
             mn = i
         elif i > n and mx == 0:
             mx = i
-    mx -= 1
-    mn += 1
-    print((n-mn)*(mx-n+1) + (mx-n))
+    print((n-mn)*(mx-n)-1)
