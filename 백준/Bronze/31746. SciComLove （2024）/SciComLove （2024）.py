@@ -3,6 +3,7 @@ input = sys.stdin.readline
 
 n = int(input())
 a = "SciComLove"
-for i in range(n):
-    a = a[::-1]
-print(a)
+if n % 2 == 0:
+    print(a)
+else:
+    print(a[::-1])
