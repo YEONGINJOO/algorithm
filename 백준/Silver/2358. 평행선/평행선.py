@@ -1,4 +1,6 @@
 from collections import defaultdict
+import sys
+input = sys.stdin.readline
 
 # 입력 받기
 n = int(input())
