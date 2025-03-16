@@ -1,0 +1,7 @@
+n = int(input())
+st = input().strip()
+a_cnt = st.count('A')
+c_cnt = st.count('C')
+g_cnt = st.count('G')
+t_cnt = st.count('T')
+print((a_cnt * c_cnt * g_cnt * t_cnt) % 1000000007)
