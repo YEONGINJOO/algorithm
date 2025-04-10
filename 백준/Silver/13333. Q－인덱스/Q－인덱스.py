@@ -6,7 +6,7 @@ citations = list(map(int, input().split()))
 
 def solve():
     q_index = 0
-    for q in range(n + 1):
+    for q in range(1, n + 1):
         count = 0
         for citation in citations:
             if citation >= q:
